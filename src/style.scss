@@ -1,0 +1,17 @@
+$gap: 2px;
+$white-color: #FFFFFF;
+
+@function calc-size($s, $m) {
+  @return $s * $m;
+}
+
+body {
+  margin: 0 auto;
+  background: $white-color;
+}
+
+p {
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 15px 10px 3px #ccc;
+}
